@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Costa</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="libs/fontawesome-free-6.7.2-web/css/all.min.css">
+</head>
+
+<body>
+
+    <aside class="sidebar">
+        <div class="profile">
+            <div class="profile-center">
+                <img src="assets/images/lucasdwn.jpg" alt="Profile" class="profile-img">
+                <h2 class="profile-name">Lucas Costa</h2>
+            </div>
+            <div class="profile-infos">
+                <p class="profile-info birthday">
+                    <i class="fa-solid fa-cake-candles"></i> 
+                    <span class="profile-info"><span class="profile-info" id="age">21</span> anos</span>
+                </p>
+                <p class="profile-info location"><i class="fa-solid fa-location-dot"></i> Jacareí-SP</p>
+                <p class="profile-info email"><i class="fa-solid fa-envelope"></i>lfcosta0804@gmail.com</p>
+            </div>
+        </div>
+        
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a data-page="home" class="nav-link">
+                    <i class="fa-solid fa-house"></i> <span>Sobre mim</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a data-page="about" class="nav-link">
+                    <i class="fa-solid fa-timeline"></i> <span>Jornada</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a data-page="projects" class="nav-link">
+                    <i class="fa-solid fa-folder"></i> <span>Projetos</span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="social-icons">
+            <a href="https://github.com/lucasdwn" target="_blank" class="social-link"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/lucascostadwn" target="_blank" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/@Daiwon_" target="_blank" class="social-link"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://x.com/lucasdwn_dev" target="_blank" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </aside>
+
+    <nav class="navbar">
+        <button class="sidebar-toggle" id="sidebar-toggle">
+            <i class="fa-solid fa-bars"></i> 
+        </button>
+    </nav>
+
+    <div class="content">
+        <div id="home" class="page active">
+            <h1>👤 Sobre mim</h1>
+            <p>Um pouco sobre mim...</p>
+        </div>
+        <div id="about" class="page">
+            <h1>🛣️ Jornada</h1>
+            <p>Minha jornada até aqui...</p>
+        </div>
+        <div id="projects" class="page">
+            <h1>📂 Projetos</h1>
+            <p>Aqui estão alguns dos meus projetos mais recentes...</p>
+        </div>
+    </div>
+
+    <script src="libs/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
