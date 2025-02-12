@@ -65,23 +65,42 @@ body {
 .profile-name {
     color: #ffffff;
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+}
+
+.profile-status {
+    color: #a0a0a0;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
 }
 
 .profile-infos {
     display: flex;
     flex-direction: column;
-    align-items: start;
 }
 
 .profile-info {
-    color: #a0a0a0;
-    font-size: 0.9rem;
-    margin-bottom: 0.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
 }
 
-.profile-info i {
-    margin-right: 0.6rem;
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+}
+
+.text {
+    display: flex;
+    align-items: flex-start;
+    color: #a0a0a0;
+    font-size: 0.9rem;
+}
+
+#age {
+    margin-right: 0.2rem;
 }
 
 .profile-info.birthday i {
@@ -94,6 +113,10 @@ body {
 
 .profile-info.email i {
     color: #ea4335;
+}
+
+.profile-info.discord i {
+    color: #5865F2;
 }
 
 /* Itens de Menu */

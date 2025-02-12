@@ -19,6 +19,10 @@ $(document).ready(function () {
         $(".page").removeClass("active");
         $("#" + pageId).addClass("active");
 
+        // Alterando o título da página dinamicamente
+        let pageTitle = $(this).text(); // Pega o texto do link clicado
+        document.title = pageTitle + " | Lucas Costa"; // Ajuste conforme desejar
+
         // Fechar a sidebar se estiver aberta (apenas para dispositivos móveis)
         if ($(window).width() <= 768) {
             $(".sidebar").removeClass("open");  // Fecha a sidebar
@@ -42,6 +46,6 @@ $(document).ready(function () {
         return idade;
     }
 
-    let dataNascimento = "2003-04-08"; 
+    let dataNascimento = "2003-04-08";
     $("#age").text(calcularIdade(dataNascimento));
 });
