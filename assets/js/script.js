@@ -7,6 +7,8 @@ $(document).ready(function () {
     $('meta[name="twitter:image"]').attr('content', imageUrl);
     $('meta[name="image"]').attr('content', imageUrl);
 
+    console.log(imageUrl)
+
     // Toggle para abrir e fechar a sidebar
     $("#sidebar-toggle").click(function () {
         $(".sidebar").toggleClass("open");
