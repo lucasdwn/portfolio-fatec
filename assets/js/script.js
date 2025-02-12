@@ -1,4 +1,12 @@
 $(document).ready(function () {
+
+    var baseUrl = window.location.origin;
+    var imageUrl = baseUrl + '/assets/images/lucasdwn.jpg';
+
+    $('meta[property="og:image"]').attr('content', imageUrl);
+    $('meta[name="twitter:image"]').attr('content', imageUrl);
+    $('meta[name="image"]').attr('content', imageUrl);
+
     // Toggle para abrir e fechar a sidebar
     $("#sidebar-toggle").click(function () {
         $(".sidebar").toggleClass("open");
