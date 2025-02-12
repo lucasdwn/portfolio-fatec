@@ -3,9 +3,9 @@ $(document).ready(function () {
     var baseUrl = window.location.origin;
     var imageUrl = baseUrl + '/assets/images/lucasdwn.jpg';
 
-    $('meta[property="og:image"]').attr('content', imageUrl);
-    $('meta[name="twitter:image"]').attr('content', imageUrl);
-    $('meta[name="image"]').attr('content', imageUrl);
+    $('head').append('<meta property="og:image" content="' + imageUrl + '">');
+    $('head').append('<meta name="twitter:image" content="' + imageUrl + '">');
+    $('head').append('<meta name="image" content="' + imageUrl + '">');
 
     console.log(imageUrl)
 
