@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Da Vinci Care",
+        "period": "08/2024 - 11/2024",
+        "course": "FATEC JAC - 4º Semestre",
+        "description": "O projeto visa criar um aplicativo de dietas personalizadas e predefinidas, adaptadas para diferentes faixas etárias, com funcionalidades como checklist diário de alimentos, cálculo automático de calorias e a possibilidade de adicionar novos itens, oferecendo uma experiência prática e personalizada para os usuários.",
+        "image": "https://github.com/Our-time-Fatec/API-2024_2-Documentacao/blob/Sprint-1/imagens/Telas%20aplica%C3%A7%C3%A3o/Tela%20Inicial.jpeg?raw=true",
+        "links": [
+            {
+                "url": "https://github.com/seu-repo",
+                "icon": "fab fa-github"
+            },
+            {
+                "url": "https://youtube.com/seu-video",
+                "icon": "fab fa-youtube"
+            }
+        ]
+    },
+    {
+        "title": "Projeto X",
+        "period": "01/2024 - 06/2024",
+        "course": "FATEC JAC - 3º Semestre",
+        "description": "Descrição do Projeto X...",
+        "image": "https://example.com/imagem.jpg",
+        "links": [
+            {
+                "url": "https://github.com/seu-repo",
+                "icon": "fab fa-github"
+            }
+        ]
+    },
+    {
+        "title": "Projeto X",
+        "period": "01/2024 - 06/2024",
+        "course": "FATEC JAC - 3º Semestre",
+        "description": "Descrição do Projeto X...",
+        "image": "https://example.com/imagem.jpg",
+        "links": [
+            {
+                "url": "https://github.com/seu-repo",
+                "icon": "fab fa-github"
+            }
+        ]
+    },
+    {
+        "title": "Projeto X",
+        "period": "01/2024 - 06/2024",
+        "course": "FATEC JAC - 3º Semestre",
+        "description": "Descrição do Projeto X...",
+        "image": "https://example.com/imagem.jpg",
+        "links": [
+            {
+                "url": "https://github.com/seu-repo",
+                "icon": "fab fa-github"
+            }
+        ]
+    }
+]

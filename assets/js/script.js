@@ -55,4 +55,28 @@ $(document).ready(function () {
 
     let dataNascimento = "2003-04-08";
     $("#age").text(calcularIdade(dataNascimento));
+
+    $.getJSON('assets/json-projetos/abp.json', function (data) {
+        data.forEach(function (project) {
+            const projectCard = `
+            <div class="project-card">
+                <img src="${project.image}" alt="${project.title}" class="project-image">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h4 class="project-title">${project.title}</h4>
+                        <span class="project-period">${project.period}</span>
+                    </div>
+                    <p class="project-course">${project.course}</p> <!-- Semestre adicionado aqui -->
+                    <p class="project-description">${project.description}</p>
+                    <div class="project-links">
+                        ${project.links.map(link => `<a href="${link.url}" target="_blank"><i class="${link.icon}"></i></a>`).join('')}
+                    </div>
+                </div>
+            </div>
+            `;
+    
+            // Adiciona o card ao container
+            $('#projects-container').append(projectCard);
+        });
+    });
 });
