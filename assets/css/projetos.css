@@ -2,7 +2,7 @@
 .projects-grid {
     display: flex; /* Muda de grid para flex */
     flex-wrap: wrap; /* Permite que os itens quebrem para a linha seguinte */
-    justify-content: space-between; /* Espaçamento entre os itens */
+    justify-content: center; /* Espaçamento entre os itens */
     gap: 1rem; /* Espaço entre os cards */
     width: 100%;
     padding: 1rem;
@@ -121,4 +121,32 @@
     .project-card {
         flex-basis: 100%; /* 1 item por linha em telas pequenas (celulares) */
     }
+}
+
+.projects-group {
+    background-color: var(--bg-secondary);
+    border-radius: 12px;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.projects-title {
+    color: var(--accent);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.projects-subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.projects-subgroup{
+    margin-bottom: 1rem;
+} 
+
+.projects-subgroup.abp{
+    border-bottom: 0.5px solid gray;
 }
