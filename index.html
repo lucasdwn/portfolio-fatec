@@ -94,17 +94,113 @@
     </nav>
 
     <div class="content">
-        <div id="home" class="page active">
+        <div id="home" class="page ">
             <h1>👤 Sobre mim</h1>
             <p>Um pouco sobre mim...</p>
         </div>
         <div id="about" class="page">
-            <h1>🛣️ Jornada</h1>
-            <p>Minha jornada até aqui...</p>
+            <div class="timeline">
+                <!-- Experiência -->
+                <div class="timeline-group">
+                    <h3 class="group-title">Experiência Profissional</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <h4>Ionic Health</h4>
+                            <span class="period">2022 - Atual</span>
+                        </div>
+                        <p class="role">Desenvolvedor .NET Jr</p>
+                        <p class="description">Responsável por implementações de alto valor, resolução de bugs, testes,
+                            suporte a chamados e deploys. Criação e manutenção em querys, procedures e micro serviços
+                            para cargas, relatórios e dashboards. Desenvolvimento de API para automatização no envio de
+                            relatórios. Melhorias e correções no projeto WEB. Habilidades técnicas: C#, .NET, API, REST,
+                            JSON, CSHTML, jQuery, Azure DevOps, SQL Server, SOLID, Clean Code, MVC, MicroServices</p>
+                    </div>
+                </div>
+
+                <div class="timeline-group">
+                    <h3 class="group-title">Formação Acadêmica</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <h4>Fatec Jacareí - Professor Francisco de Moura</h4>
+                            <span class="period">2023 - 2025</span>
+                        </div>
+                        <p class="course">Desenvolvimento de Software Multiplataforma</p>
+                        <p class="description">Existe um projeto intitulado ABP (Aprendizagem Baseada em Projetos) que
+                            tem como intuito realizar projetos para a solução de problemas reais de empresas parceira.
+                            Nesse projeto trabalhamos com Metodologias Ágeis, com diferentes tecnologias cada desafio
+                            sendo elas Node.JS, C++, React, React Native, PostgreSQL, MongoDB.
+                        </p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <h4>Fatec São José dos Campos - Prof. Jessen Vidal</h4>
+                            <span class="period">2021 - 2022</span>
+                        </div>
+                        <p class="course">Desenvolvimento de Software Multiplataforma</p>
+                        <p class="description">Existe um projeto intitulado API (Aprendizagem Projetos Integrados) que
+                            tem como intuito realizar projetos para a solução de problemas reais de empresas parceiras.
+                            Nesse projeto trabalhamos com Metodologias Ágeis, com diferentes tecnologias para cada
+                            período sendo elas Flask, Node.Js, Java, React, MySql, MongoDB, Redis, CassandraDB.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Educação -->
+                <div class="timeline-group">
+                    <h3 class="group-title">Cursos e Certificações</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <h4>DIO - Digital Innovation One</h4>
+                            <span class="period">01/2024 - 02/2024</span>
+                        </div>
+                        <p class="course">.NET Developer</p>
+                        <p class="description">Durante o bootcamp pude reforçar alguns conceitos do desenvolvimento com
+                            .NET como fundamentos básicos de .NET, Programação Orientada a Objetos, Banco de Dados SQL e
+                            NoSQL, Desenvolvimento de APIs e aprender novos tópicos como Nuvem com Microsoft Azure e
+                            Testes Unitários. Gostei bastante do bootcamp, pude aplicar o que aprendi em Projetos e
+                            Desafios propostos durante cada módulo, foi algo que ajudou a reforçar os conceitos do
+                            módulo além das atividades feitas durante as aulas, além disso pretendo criar novos projetos
+                            pessoais utilizando tudo que aprendi.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="projects" class="page">
-            <h1>📂 Projetos</h1>
-            <p>Aqui estão alguns dos meus projetos mais recentes...</p>
+        <div id="projects" class="page active">
+            <div class="projects-container">
+                <div class="projects-group">
+                    <h2 class="projects-title">Projetos FATEC</h2>
+
+                    <div class="projects-subgroup">
+                        <h3 class="projects-subtitle">ABPs</h3>
+                        <div class="projects-grid">
+                            <div class="project-card">
+                                <img src="https://github.com/Our-time-Fatec/API-2024_2-Documentacao/blob/Sprint-1/imagens/Telas%20aplica%C3%A7%C3%A3o/Tela%20Inicial.jpeg?raw=true" alt="Da Vinci Care" class="project-image">
+                                <div class="project-header">
+                                    <h4>Da Vinci Care: Acompanhar as dietas e metas calóricas</h4>
+                                    <span class="project-period">08/2024 - 11/2024</span>
+                                </div>
+                                <p class="project-course">FATEC JAC - 4º Semestre</p>
+                                <p class="project-description"
+                                    data-full-text="O projeto visa criar um aplicativo de dietas personalizadas e predefinidas, adaptadas para diferentes faixas etárias, com funcionalidades como checklist diário de alimentos, cálculo automático de calorias e a possibilidade de adicionar novos itens.">
+                                    O projeto visa criar um aplicativo de dietas personalizadas e predefinidas,
+                                    adaptadas para diferentes faixas etárias, com funcionalidades como checklist diário
+                                    de alimentos, cálculo automático de calorias e a possibilidade de adicionar novos
+                                    itens, oferecendo uma experiência prática e personalizada para os usuários.
+                                </p>
+                                <div class="project-links">
+                                    <a href="https://github.com/Our-time-Fatec/API-2024_2-Documentacao"
+                                        target="_blank"><i class="fab fa-github"></i></a>
+                                    <a href="https://youtube.com/seu-video" target="_blank"><i
+                                            class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
