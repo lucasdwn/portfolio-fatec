@@ -117,7 +117,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .project-card {
         flex-basis: 100%; /* 1 item por linha em telas pequenas (celulares) */
     }
