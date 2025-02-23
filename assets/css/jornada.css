@@ -109,3 +109,14 @@
     color: var(--text-secondary);
     font-weight: 500;
 }
+
+@media (max-width: 800px) {
+    .timeline-group {
+        width: 100%;
+        padding: 1rem;
+    }
+    .timeline {
+        padding-left: 0.5rem;
+    }
+    
+}
