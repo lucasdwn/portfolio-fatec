@@ -29,6 +29,7 @@ $(document).ready(function () {
         // Alterando o título da página dinamicamente
         let pageTitle = $(this).text(); // Pega o texto do link clicado
         document.title = pageTitle + " | Lucas Costa"; // Ajuste conforme desejar
+        $('html, body').animate({ scrollTop: 0 }, 'slow');
 
         // Fechar a sidebar se estiver aberta (apenas para dispositivos móveis)
         if ($(window).width() <= 768) {
